@@ -1,3 +1,4 @@
 
 images:
-	docker build -t openssl ./openssl
+	docker build --pull -t openssl ./openssl
+	docker build --pull -t pgbadger ./pgbadger
